@@ -8,7 +8,7 @@
 <body>
 
     <p id="demo">Javascript can change html contact.</p>
-    <button onclick="add()">click me</button>
+    <button onclick="document.getElementById('demo').innerHTML = 'Hello !'">click me</button>
     <script>
  
         function add(){
@@ -16,7 +16,6 @@
         }
 
 
-        add.getElementById(data);
     </script>
 </body>
 </html>
